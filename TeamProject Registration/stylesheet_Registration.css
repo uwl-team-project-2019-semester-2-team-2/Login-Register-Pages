@@ -1,0 +1,149 @@
+
+.header_body {
+    width: 101%;
+    height: 90px;
+    background-color: white;
+}
+
+.main_register_body {
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 730px;
+    box-shadow: 0px 0px 20px lightgrey inset;
+}
+
+.main_login_body {
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 670px;
+    box-shadow: 0px 0px 20px lightgrey inset;
+}
+
+.register_body {
+    margin-left: 350px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px;
+    width: 40%;
+    height: 510px;
+    box-shadow: 0px 0px 20px 6px lightgrey;
+
+}
+
+.login_body {
+    margin-left: 350px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px;
+    width: 40%;
+    height: 440px;
+    box-shadow: 0px 0px 20px 6px lightgrey;
+
+}
+
+.footer_body {
+    width: 100%;
+    height: 18px;
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    line-height: 65px;
+    height: 65px;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.logo-image {
+    background: url(pictures/logo.png);
+    background-size: cover;
+    width: 126px;
+    display: inline-block;
+    height: 65px;
+}
+
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: navy;
+    margin-left: auto;
+}
+
+/* Add padding to containers */
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darkorange;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 130px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.loginbtn {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darkorange;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 130px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+p1 {
+    text-align: center;
+    margin-left: 160px;
+}
+
+p2 {
+    text-align: center;
+    margin-left: 190px;
+}
+
